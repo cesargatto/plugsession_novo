@@ -1,0 +1,52 @@
+.img-logo {
+    width: 200px;
+}
+
+.nav-fundo {
+    background-color: #545454;
+}
+
+
+.menu-lateral__link {
+    height: 60px;
+    color: #FFFFFF;
+    padding-left: 55px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu-lateral__link::before {
+    content: url("../icones/inicio.png");
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    align-items: center;
+
+}
+
+.menu-lateral__link--inicio::before {
+    content: url("../icones/inicio.png");
+}
+
+.menu-lateral__link--aulas::before {
+    content: url("../icones/aulas.png");
+}
+
+.menu-lateral__link--produtos::before {
+    content: url("../icones/produtos.png");
+}
+
+.menu-lateral__link--fotos::before {
+    content: url("../icones/fotos.png");
+}
+
+.menu-lateral__link--sessions::before {
+    content: url("../icones/prancha.png");
+}
+
+.menu-lateral__link--experiencia::before {
+    content: url("../icones/experiencia.png");
+}
